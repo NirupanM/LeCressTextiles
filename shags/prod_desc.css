@@ -787,8 +787,8 @@ body {
 }
 
 .navbar-default{
-  background-color: transparent;
-  border-color: transparent; 
+ /* background-color: transparent;
+  border-color: transparent; */
 }
 
 /*header nav > ul > li > a:before,

@@ -196,6 +196,21 @@ position: absolute;
     color: white;
 }
 
+
+
+/* Navbar hover code */
+/*.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+*/
+/*End */
+
 /*.pod-plp__description, .pod-plp__description--dpd {
     display: -webkit-box;
     display: box;

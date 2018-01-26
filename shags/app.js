@@ -1,27 +1,54 @@
+function shagsToggle(){ 
+
+        $("#shags-sec").removeClass("hidden");
+        $("#scarves-sec").addClass("hidden");
+        $("#womens-sec").addClass("hidden");
+
+}
+
+function womenToggle(){ 
+
+        $("#womens-sec").removeClass("hidden");
+        $("#shags-sec").addClass("hidden");
+        $("#scarves-sec").addClass("hidden");
+
+}
+
+
+function scarvesToggle(){ 
+
+        $("#shags-sec").addClass("hidden");
+        $("#scarves-sec").removeClass("hidden");
+        $("#womens-sec").addClass("hidden");
+
+}
+
+
 $(document).ready( function() {
 
 
 
-    $("#shags").on("click", function() {
-        $("#shags-sec").removeClass("hidden");
-        $("#scarves-sec").addClass("hidden");
-        $("#womens-sec").addClass("hidden");
-        //  $("#notary-sec").addClass("hidden");
-    });
+    // $("#shags").on("click", function() {
 
-        $("#scarves").on("click", function() {
-        $("#shags-sec").addClass("hidden");
-        $("#scarves-sec").removeClass("hidden");
-        $("#womens-sec").addClass("hidden");
-        //  $("#notary-sec").addClass("hidden");
-    });
+       
+    //     $("#shags-sec").removeClass("hidden");
+    //     $("#scarves-sec").addClass("hidden");
+    //     $("#womens-sec").addClass("hidden");
+    // });
 
-                $("#womens").on("click", function() {
-                    $("#womens-sec").removeClass("hidden");
-        $("#shags-sec").addClass("hidden");
-        $("#scarves-sec").addClass("hidden");
-        //  $("#notary-sec").addClass("hidden");
-    });
+    //     $("#scarves").on("click", function() {
+    //     $("#shags-sec").addClass("hidden");
+    //     $("#scarves-sec").removeClass("hidden");
+    //     $("#womens-sec").addClass("hidden");
+        
+    // });
+
+    //             $("#womens").on("click", function() {
+    //                 $("#womens-sec").removeClass("hidden");
+    //     $("#shags-sec").addClass("hidden");
+    //     $("#scarves-sec").addClass("hidden");
+        
+    // });
 
 // $('#product-catalog').load('templates/grid-row.html');
 
@@ -197,7 +224,6 @@ var native_width = 0;
 // $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
 //     $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
    
-
 
 
 

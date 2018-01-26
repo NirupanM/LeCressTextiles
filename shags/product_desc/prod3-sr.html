@@ -25,7 +25,48 @@
 
 <body>
 
-<nav-m class="navbar navbar-default">
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="../otherphotos/leaf.jpg" class="nav-title"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rugs <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a id="#shags" onclick="shagsToggle()">Shag Rugs</a></li>
+            <li><a href="#">Contemporary Rugs</a></li>
+            <li><a href="#">Traditional Rugs</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav">
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fashion <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a id="#mens" onclick="menToggle()">Mens</a></li>
+            <li><a id="#womens" onclick="womenToggle()">Womens</a></li>
+            <li><a id="#scarves" onclick="scarvesToggle()">Accessories & Scarves</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- <nav-m class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">
@@ -47,7 +88,7 @@
   </div>
 
 </nav>
-
+ -->
     <!-- <video  autoplay loop class="fillWidth video-class">
   <source src="videos/videoplayback.mp4" type="video/mp4" />
 
