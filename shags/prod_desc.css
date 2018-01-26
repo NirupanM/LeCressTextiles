@@ -4545,3 +4545,62 @@ max-height: 592px;
 /*        margin-top: -25%;
     margin-left: -61%;*/
   }
+
+  .swatch .color1 label span {
+    /* background-color: #086fcf !important; */
+    background: url(shagrugs_colors/color1.jpg) !important;
+    /* border-radius: 51%; */
+    width: 150%;
+    height: 150%;
+    margin: -43%;
+}
+
+  .swatch .color2 label span {
+    /* background-color: #086fcf !important; */
+    background: url(shagrugs_colors/color2.jpg) !important;
+    /* border-radius: 51%; */
+    width: 150%;
+    height: 150%;
+    margin: -43%;
+}
+
+
+  .swatch .color3 label span {
+    /* background-color: #086fcf !important; */
+    background: url(shagrugs_colors/color3.jpg) !important;
+    /* border-radius: 51%; */
+    width: 150%;
+    height: 150%;
+    margin: -43%;
+}
+
+  .swatch .color4 label span {
+    /* background-color: #086fcf !important; */
+    background: url(shagrugs_colors/color4.jpg) !important;
+    /* border-radius: 51%; */
+    width: 150%;
+    height: 150%;
+    margin: -43%;
+}
+
+
+  .swatch .color5 label span {
+    /* background-color: #086fcf !important; */
+    background: url(shagrugs_colors/color5.jpg) !important;
+    /* border-radius: 51%; */
+    width: 150%;
+    height: 150%;
+    margin: -43%;
+}
+
+  .swatch .color6 label span {
+    /* background-color: #086fcf !important; */
+    background: url(shagrugs_colors/color6.jpg) !important;
+    /* border-radius: 51%; */
+    width: 150%;
+    height: 150%;
+    margin: -43%;
+}
+
+
+

@@ -1,0 +1,8 @@
+.swatch .color1 label span {
+    /* background-color: #086fcf !important; */
+    background: url(shagrugs_colors/color1.jpg) !important;
+    /* border-radius: 51%; */
+    width: 200%;
+    height: 200%;
+    margin: -43%;
+}
