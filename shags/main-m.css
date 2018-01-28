@@ -15,6 +15,19 @@ img {
 
 }
 
+#logo-image{
+margin-top: -20%;
+}
+
+#logo-text{
+    margin-top: -13%;
+    margin-left: 4%;
+    font-weight: bolder;
+    /* color: white; */
+    font-size: medium;
+    z-index: 100;
+}
+
 .gallery-title
 {
     font-size: 36px;
