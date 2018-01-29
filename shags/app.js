@@ -227,7 +227,68 @@ var native_width = 0;
 
 
 
-    
+$(".swatch .color1 label span").on("click", function(){
+
+
+
+ $('#img-loc2').attr('src','../shagrugs/pic46.jpg');
+  $('#img-loc3').attr('src','../shagrugs/pic46.jpg');
+
+  $(".large").css("background","url('" + $(".small").attr("src") + "') no-repeat");
+
+});    
+
+$(".swatch .color2 label span").on("click", function(){
+
+
+
+ $('#img-loc2').attr('src','../shagrugs/pic47.jpg');
+  $('#img-loc3').attr('src','../shagrugs/pic47.jpg');
+  $(".large").css("background","url('" + $(".small").attr("src") + "') no-repeat");
+
+});    
+
+$(".swatch .color3 label span").on("click", function(){
+
+
+
+ $('#img-loc2').attr('src','../shagrugs/pic48.jpg');
+  $('#img-loc3').attr('src','../shagrugs/pic48.jpg');
+  $(".large").css("background","url('" + $(".small").attr("src") + "') no-repeat");
+
+});    
+
+$(".swatch .color4 label span").on("click", function(){
+
+
+
+ $('#img-loc2').attr('src','../shagrugs/pic49.jpg');
+  $('#img-loc3').attr('src','../shagrugs/pic49.jpg');
+  $(".large").css("background","url('" + $(".small").attr("src") + "') no-repeat");
+
+});    
+
+$(".swatch .color5 label span").on("click", function(){
+
+
+
+ $('#img-loc2').attr('src','../shagrugs/pic50.jpg');
+  $('#img-loc3').attr('src','../shagrugs/pic50.jpg');
+  $(".large").css("background","url('" + $(".small").attr("src") + "') no-repeat");
+
+});    
+
+$(".swatch .color6 label span").on("click", function(){
+
+
+
+ $('#img-loc2').attr('src','../shagrugs/pic51.jpg');
+  $('#img-loc3').attr('src','../shagrugs/pic51.jpg');
+  $(".large").css("background","url('" + $(".small").attr("src") + "') no-repeat");
+
+});   
+
+
 
 });
 

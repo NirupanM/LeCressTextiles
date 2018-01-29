@@ -8,24 +8,44 @@ body{
  background: url('gifs/gif1-resize.gif') no-repeat;
  background-size: cover;
 }
-
+ 
 img {
   background: url('otherphotos/loading.gif') no-repeat;
   image-orientation: 0deg;
 
 }
 
+.navbar-default {
+max-width: 12%;
+    margin-top: 0%;
+}
+
 #logo-image{
-margin-top: -20%;
+margin-top: 1.5%;
+    height: 126px;
+    margin-left: 34%;
+    width: 23%;
+}
+
+#logo-container{
+    background-color: #fb1e27;
+    margin-top: -1.5%;
+}
+
+
+#logo-text-container{
+margin-top: -16.5%;
+    margin-left: 0%;
+    font-weight: bolder;
+    color: white;
+    font-size: x-large;
+    z-index: 100;
+    background-color: red;
+    height: 38px;
 }
 
 #logo-text{
-    margin-top: -13%;
-    margin-left: 4%;
-    font-weight: bolder;
-    /* color: white; */
-    font-size: medium;
-    z-index: 100;
+    margin-left: 5%;
 }
 
 .gallery-title
@@ -208,6 +228,27 @@ position: absolute;
     background-color: black;
     color: white;
 }
+
+@media only screen and (max-width: 400px) {
+
+.navbar-default {
+max-width: 100%;
+    margin-top: -0.5%;
+}
+
+#logo-image{
+margin-top: 1.5%;
+    height: 126px;
+    margin-left: 36%;
+    width: 48%;
+}
+
+#logo-container{
+background-color: #fb1e27;
+    margin-top: -0.5%;
+}
+
+    }
 
 
 
