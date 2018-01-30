@@ -4,6 +4,13 @@ function shagsToggle(){
         $("#scarves-sec").addClass("hidden");
         $("#womens-sec").addClass("hidden");
 
+        console.log(window.location.href);
+
+        //if(window.location.href=="")
+
+        sessionStorage.option = 1;
+        // sessionStorage.currLoc = window.location.href;
+
 }
 
 function womenToggle(){ 
@@ -11,6 +18,8 @@ function womenToggle(){
         $("#womens-sec").removeClass("hidden");
         $("#shags-sec").addClass("hidden");
         $("#scarves-sec").addClass("hidden");
+
+        sessionStorage.option = 2;
 
 }
 
@@ -21,12 +30,34 @@ function scarvesToggle(){
         $("#scarves-sec").removeClass("hidden");
         $("#womens-sec").addClass("hidden");
 
+        sessionStorage.option = 3;
+
 }
 
 
 $(document).ready( function() {
 
+   if(sessionStorage.option==1){
 
+    shagsToggle();
+
+   }
+   if(sessionStorage.option==2){
+
+    womenToggle();
+    
+   }
+   if(sessionStorage.option==3){
+
+    scarvesToggle();
+    
+   }
+
+// $("#shagsDesc").on("click", function(){
+
+//         console.log(window.location.href);
+
+// });
 
     // $("#shags").on("click", function() {
 
