@@ -1,0 +1,140 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.product-card {
+  background-color: lightgray;
+  /*max-width: 550px;*/
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
+
+  color: #919495;
+  font-weight: normal;
+  text-align: left;
+  font-size: 18px;
+  position: relative;
+  margin: 2%;
+  opacity: 0.4;
+      border-radius: 29%;
+        /*box-shadow: 8px 12px 30px #b3b3b3;*/
+}
+
+.product-details {
+  width: 49%;
+  float: left;
+  height: 100%;
+  padding: 30px;
+  opacity: 1;
+}
+
+
+.product-details h1 {
+  color: black;
+  font-family: "Pacifico", cursive;
+  margin-bottom: 35px;
+}
+
+.product-details p {
+  color: black;
+/*  font-family: "Pacifico", cursive;*/
+  /*margin-bottom: 35px;*/
+}
+
+
+.product-details button {
+  /*width: 150px;*/
+/*  height: 50px;
+  margin-top: 20px;
+  background-color: #337AB7;
+  border-radius: 0;
+  color: #fff;
+  box-shadow: 2px 2px 7px #173853;*/
+}
+/*.product-details button:hover, .product-details button:active, .product-details button:focus {
+  color: #fff;
+}*/
+
+
+/*.product-card:hover {
+    background-color: #fdfefe;
+      box-shadow: 8px 12px 30px #b3b3b3;
+}
+
+.product-card:hover .product-details{
+opacity: 1;
+  }*/
+
+
+
+
+.product-image {
+position: absolute;
+    /* left: 194px; */
+    right: 51px;
+    top: 31px;
+/*  position: absolute;
+  right: -50px;
+  top: -10px;*/
+}
+/*.product-image img {
+  max-width: 350px;
+}*/
+
+/*.product-image #front{
+  opacity: 0;
+}*/
+
+.product-card:hover  {
+opacity: 1;
+
+  }
+
+/*  .product-card:hover .product-image #front{
+opacity: 1;
+  }
+*/
+
+
+
+@media (max-width: 700px) {
+  .product-card {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .product-card {
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+
+  .product-details {
+    width: 60%;
+    z-index: 1;
+  }
+
+  .product-image {
+    width: 100%;
+    left: 50%;
+    top: -30px;
+  }
+}
+@media (max-width: 440px) {
+  .product-details {
+    width: 65%;
+  }
+}
+@media (max-width: 365px) {
+  .product-details {
+    width: 80%;
+    position: relative;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
